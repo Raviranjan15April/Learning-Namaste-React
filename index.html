@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+    <!-- Creating Hello World Program by using HTML 
+        <div id="root">
+            <h1> Hello World by using HTM</h1>
+        </div>
+    -->
+
+    <!-- Creating Hello World Program by using JavaScript 
+        <div id="root01"> </div>
+        <script>
+            const headingElement = document.createElement("h1");
+            headingElement.innerText = "Hello World by using JavaScript";
+            const root = document.getElementById("root01");
+            root.appendChild(headingElement);
+        </script> 
+    -->
+
+
+    <!-- Creating Hello World Program by using React with React CDN LINK-->
+        <div id="root02"> </div>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- <script>
+    const haedingReactElement = React.createElement("h1", {}, "Hello World by using React");
+    const rootElemet = ReactDOM.createRoot(document.getElementById("root02"));
+    rootElemet.render(haedingReactElement);
+    </script> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
