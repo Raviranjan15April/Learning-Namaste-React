@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+
 // // Creating Hello World Program by using React
 // const headingElement = React.createElement("h1",{}, "Hello World by using React");
 // const rootElemet = ReactDOM.createRoot(document.getElementById("root02"));
